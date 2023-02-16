@@ -1,0 +1,142 @@
+﻿  virtual1.cpp
+  
+  class _s__RTTIBaseClassDescriptor	size(28):
+  	+---
+   0	| pTypeDescriptor
+   4	| numContainedBases
+   8	| _PMD where
+  20	| attributes
+  24	| pClassDescriptor
+  	+---
+  
+  class _s__RTTIBaseClassArray	size(1):
+  	+---
+   0	| arrayOfBaseClassDescriptors
+  	+---
+  
+  class __vcrt_va_list_is_reference<wchar_t const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<wchar_t const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_va_list_is_reference<wchar_t const *>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<wchar_t const *>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_va_list_is_reference<char const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<char const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_va_list_is_reference<char const *>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<char const *>	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<void const >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_String_val<`template-type-parameter-1'>::_Bxty	size(0):
+  	+---
+   0	| _Buf
+   0	| _Ptr
+   0	| _Alias
+  	+---
+  
+  class std::_String_val<struct std::_Simple_types<char> >::_Bxty	size(16):
+  	+---
+   0	| _Buf
+   0	| _Ptr
+   0	| _Alias
+  	+---
+  
+  class std::is_error_code_enum<char const *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class B	size(20):
+  	+---
+   0	| {vfptr}
+   4	| {vbptr}
+   8	| _ib
+  	+---
+  	+--- (virtual base A)
+  12	| {vfptr}
+  16	| _ia
+  	+---
+  
+  B::$vftable@B@:
+  	| &B_meta
+  	|  0
+   0	| &B::fb2 
+  
+  B::$vbtable@:
+   0	| -4
+   1	| 8 (Bd(B+4)A)
+  
+  B::$vftable@A@:
+  	| -12
+   0	| &B::f 
+  
+  B::f this adjustor: 12
+  B::fb2 this adjustor: 0
+  vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+                 A      12       4       4 0
+  
+  class std::_String_val<struct std::_Simple_types<wchar_t> >::_Bxty	size(16):
+  	+---
+   0	| _Buf
+   0	| _Ptr
+   0	| _Alias
+  	+---
+  
+  class std::_Range_verifiable<char const *,char const *,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Range_verifiable<wchar_t const *,wchar_t const *,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Range_verifiable<unsigned short const *,unsigned short const *,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::remove_pointer<char const *>	size(1):
+  	+---
+  	+---
+  
+  class std::_Sign_base<char const ,1>	size(1):
+  	+---
+  	+---
+  
+  class std::is_signed<char const >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  virtual1.vcxproj -> E:\BaiduNetdiskDownload\cppCode\virtuallayout\virtual1\Debug\virtual1.exe

@@ -1,0 +1,227 @@
+﻿  virtual3.cpp
+  
+  class _s__RTTIBaseClassDescriptor	size(28):
+  	+---
+   0	| pTypeDescriptor
+   4	| numContainedBases
+   8	| _PMD where
+  20	| attributes
+  24	| pClassDescriptor
+  	+---
+  
+  class _s__RTTIBaseClassArray	size(1):
+  	+---
+   0	| arrayOfBaseClassDescriptors
+  	+---
+  
+  class __vcrt_va_list_is_reference<wchar_t const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<wchar_t const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_va_list_is_reference<wchar_t const *>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<wchar_t const *>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_va_list_is_reference<char const * const>	size(1):
+  	+---
+  	+---
+  
+  class __vcrt_assert_va_start_is_not_reference<char const * const>	size(1):
+  	+---
+  	+---
+  
+  class std::is_void<void const >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_String_val<`template-type-parameter-1'>::_Bxty	size(0):
+  	+---
+   0	| _Buf
+   0	| _Ptr
+   0	| _Alias
+  	+---
+  
+  class std::_String_val<struct std::_Simple_types<char> >::_Bxty	size(16):
+  	+---
+   0	| _Buf
+   0	| _Ptr
+   0	| _Alias
+  	+---
+  
+  class B	size(12):
+  	+---
+   0	| {vfptr}
+   4	| _ib
+   8	| _cb
+    	| <alignment member> (size=3)
+  	+---
+  
+  B::$vftable@:
+  	| &B_meta
+  	|  0
+   0	| &B::f 
+   1	| &B::Bf 
+  
+  B::f this adjustor: 0
+  B::Bf this adjustor: 0
+  
+  class std::is_error_code_enum<char const *>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,0>)
+  	| +---
+  	+---
+  
+  class B1	size(28):
+  	+---
+   0	| {vfptr}
+   4	| {vbptr}
+   8	| _ib1
+  12	| _cb1
+    	| <alignment member> (size=3)
+  	+---
+  	+--- (virtual base B)
+  16	| {vfptr}
+  20	| _ib
+  24	| _cb
+    	| <alignment member> (size=3)
+  	+---
+  
+  B1::$vftable@B1@:
+  	| &B1_meta
+  	|  0
+   0	| &B1::f1 
+   1	| &B1::Bf1 
+  
+  B1::$vbtable@:
+   0	| -4
+   1	| 12 (B1d(B1+4)B)
+  
+  B1::$vftable@B@:
+  	| -16
+   0	| &B1::f 
+   1	| &B::Bf 
+  
+  B1::f this adjustor: 16
+  B1::f1 this adjustor: 0
+  B1::Bf1 this adjustor: 0
+  vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+                 B      16       4       4 0
+  
+  class B2	size(28):
+  	+---
+   0	| {vfptr}
+   4	| {vbptr}
+   8	| _ib2
+  12	| _cb2
+    	| <alignment member> (size=3)
+  	+---
+  	+--- (virtual base B)
+  16	| {vfptr}
+  20	| _ib
+  24	| _cb
+    	| <alignment member> (size=3)
+  	+---
+  
+  B2::$vftable@B2@:
+  	| &B2_meta
+  	|  0
+   0	| &B2::f2 
+   1	| &B2::Bf2 
+  
+  B2::$vbtable@:
+   0	| -4
+   1	| 12 (B2d(B2+4)B)
+  
+  B2::$vftable@B@:
+  	| -16
+   0	| &B2::f 
+   1	| &B::Bf 
+  
+  B2::f this adjustor: 16
+  B2::f2 this adjustor: 0
+  B2::Bf2 this adjustor: 0
+  vbi:	   class  offset o.vbptr  o.vbte fVtorDisp
+                 B      16       4       4 0
+  
+  class std::_String_val<struct std::_Simple_types<wchar_t> >::_Bxty	size(16):
+  	+---
+   0	| _Buf
+   0	| _Ptr
+   0	| _Alias
+  	+---
+  
+  class std::_Add_reference<char const * const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Range_verifiable<char const *,char const *,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Add_reference<wchar_t * const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Add_reference<wchar_t const * const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Range_verifiable<wchar_t const *,wchar_t const *,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Add_reference<char * const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Add_reference<unsigned short * const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Add_reference<unsigned short const * const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Range_verifiable<unsigned short const *,unsigned short const *,void>	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+  
+  class std::_Add_reference<class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::_Add_reference<class std::istreambuf_iterator<char,struct std::char_traits<char> > const &,void>	size(1):
+  	+---
+  	+---
+  
+  class std::remove_pointer<char const *>	size(1):
+  	+---
+  	+---
+  
+  class std::_Sign_base<char const ,1>	size(1):
+  	+---
+  	+---
+  
+  class std::is_signed<char const >	size(1):
+  	+---
+   0	| +--- (base class std::integral_constant<bool,1>)
+  	| +---
+  	+---
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: 无法解析的外部符号 _WinMain@16，该符号在函数 "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中被引用
+E:\BaiduNetdiskDownload\cppCode\virtuallayout\Debug\virtuallayout.exe : fatal error LNK1120: 1 个无法解析的外部命令

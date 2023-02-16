@@ -1,0 +1,41 @@
+@startuml Factory
+
+class Factory{
+    + createProduct():Product {abstract}
+    + someOP()
+}
+class Product1Creator{
+
+    - createProduct1():Product
+}
+class Product2Creator{
+    - createProduct2():Product
+}
+
+note  as N1
+Product p=new Product();
+p.func();
+end note
+N1..Factory
+abstract class Product 
+{ 
+   
+    + func():void {abstract}
+}
+
+class Product1 
+{ 
+
+}
+
+class Product2 
+{ 
+
+}
+
+Product1..|>Product
+Product2..|>Product
+Product1Creator--|>Factory
+Product2Creator--|>Factory
+Factory ..> Product
+@enduml

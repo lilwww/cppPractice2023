@@ -1,0 +1,32 @@
+@startuml producer_consumer
+class Producer{
+    - _rep: Repository
+    + Produce(rep: Repository)
+}
+class Consumer{
+    - _rep: Repository
+    + Consume(rep: Repository)
+}
+class Repository{
+    +Repository()
+    +Repository()
+    +isEmpty()
+}
+class MutexLock{
+    - _mutex: pthread_mutex_t
+    +MutexLock()
+    +~MutexLock()
+    lock():void
+}
+class Condition{
+    - MutexLock& _mtLock
+    - _cond: pthread_cond_t
+    - notifyAll()
+    - notify()
+}
+Condition -->MutexLock
+Producer --> Repository
+Consumer --> Repository
+Repository *-- MutexLock
+Repository *-- Condition
+@enduml

@@ -1,0 +1,37 @@
+@startuml observer
+
+abstract class Subscriber{
+    + update()
+}
+note left: Subscriber s;\ns1.update();
+
+
+
+abstract class Publisher{
+    - allSub: Subscriber []
+    - state
+    +addSubs(s:Subscriber)
+    +rmSubs(s:Subscriber)
+    +notify()
+    + mainLogic()
+}
+note right of Publisher::mainLogic
+ state=newstate;
+ notify();
+end note
+
+note left of Publisher::notify
+ foreach(s <b>in</b> allSub)
+ s.update(<b>this</b>)
+end note
+
+class Client
+note left: s =new Subscriber1();\npublisher.addSubs(s);
+
+Client -->Publisher
+Publisher o-->Subscriber
+Publisher1 ..|>Publisher
+Publisher2 ..|>Publisher
+Subscriber1 ..|>Subscriber
+Subscriber2 ..|>Subscriber
+@enduml

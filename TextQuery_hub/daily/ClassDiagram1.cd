@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AndQuery">
+    <Position X="0.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\andquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryQuery">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAIAAAAAAAAABAABAAAAAAAAAIA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\binaryquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotQuery">
+    <Position X="5.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIBAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\notquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrQuery">
+    <Position X="3" Y="5" Width="1.75" />
+    <InheritanceLine Type="BinaryQuery" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="4.937" />
+        <Point X="2.5" Y="5.688" />
+        <Point X="3" Y="5.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\orquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Query">
+    <Position X="8.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAIAAAAAAAAAAAgAACAAAAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\query.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueryResult">
+    <Position X="11.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAACAAABAAAAIAAAAAAYAAIAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\queryresult.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Query_base">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\query_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextQuery">
+    <Position X="9.75" Y="3.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="TextQuery::line_no" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\textquery.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABAAAAAAAAAAAAAAAAAAAIABAAIAAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\textquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WordQuery">
+    <Position X="7.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAgAAAIAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>E:\BaiduNetdiskDownload\cppCode\cppGithub\Cpp-Primer\ch15\ex15.42_c\wordquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
